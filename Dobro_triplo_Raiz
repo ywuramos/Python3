@@ -1,0 +1,10 @@
+n = int(input('Digite um numero: '))  # DOBRO, TRIPLO, RAIZ
+do = n * 2
+tri = n * 3
+raiz = n**(1/2)
+print('Dobro = {}, Triplo = {}, Raiz quadrada = {:.2f} '.format(do, tri, raiz))
+
+# ------------------------
+
+n = int(input('Digite um Número: '))
+print('Dobro = {}, Triplo = {}, RaizQuadrada = {:.2f}'.format(n*2, n*3, n**(1/2)))
